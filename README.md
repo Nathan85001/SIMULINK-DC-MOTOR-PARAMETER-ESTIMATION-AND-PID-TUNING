@@ -62,15 +62,25 @@ A virtual version of this project is available using Proteus and a virtual seria
 ## Repository Structure
 
 ├── Arduino
+
 │ └── dc_motor_control.ino # Arduino sketch for motor control and data logging
+
 ├── Data
+
 │ └── motor_data.csv # Sample logged data
+
 ├── Simulink
+
 │ └── parameter_estimation.slx # Simulink model for parameter estimation
+
 │ └── pid_tuning.slx # Simulink model for PID tuning
+
 ├── Virtual
+
 │ └── proteus_simulation.pdsprj # Proteus project for virtual simulation
+
 │ └── virtual_serial_link.pdf # Documentation for setting up the virtual serial link
+
 ├── README.md # Project documentation
 
 ## Usage
